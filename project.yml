@@ -2,8 +2,8 @@
 - name: playbook new
   hosts: all
   vars:
-   a: "This is first task"
-   b: "This is Second task"
+   a: "welcome"
+   b: "hello "
   tasks:
    - name: task-1
      debug:
