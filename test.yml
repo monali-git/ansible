@@ -2,8 +2,8 @@
 - name: playbook new
   hosts: all
   vars:
-   a: "This is First Playbook"
-   b: "This is Second Playbook"
+   a: "This is first task"
+   b: "This is Second task"
   tasks:
    - name: task-1
      debug:
