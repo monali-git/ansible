@@ -1,2 +1,2 @@
 [webservers]
-18.176.236.210 ansible_usder=ubuntu
+172.31.20.175 ansible_usder=ubuntu
