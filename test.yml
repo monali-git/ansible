@@ -5,11 +5,11 @@
    tasks:
    - name: installing packages
      ansible.builtin.apt:
-       name: apache2
+       name: tomcat
        state: latest
 
    - name: startng packages
      ansible.builtin.apt:
-       name: apache2
+       name: tomcat
        state: fixed
 ...
